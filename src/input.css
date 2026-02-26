@@ -4,3 +4,13 @@
 @theme{
     --font-Oswald:  "Oswald", sans-serif;
 }
+
+.hero-bg {
+  background-image: url('../Assets/sm-bg-section-1.png');
+}
+
+@media (min-width: 640px) {
+  .hero-bg {
+    background-image: url('../Assets/section-1-1.png');
+  }
+}
